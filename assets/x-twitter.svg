@@ -1,1 +1,44 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="X/Twitter Ableton" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" class="abl-mix-blend-difference" width="48"  height="48" ><path d="M36.6526 3.80786H43.3995L28.6594 20.6548L46 43.5798H32.4225L21.7881 29.6759L9.61989 43.5798H2.86886L18.6349 25.5601L2 3.80786H15.9222L25.5348 16.5165L36.6526 3.80786ZM34.2846 39.5414H38.0232L13.8908 7.63413H9.87892L34.2846 39.5414Z" fill="#FFFFFF"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   role="img"
+   aria-label="X/Twitter Ableton"
+   viewBox="0 0 48 48"
+   fill="#ffffff"
+   class="abl-mix-blend-difference"
+   width="48"
+   height="48"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="x-twitter.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="16.416667"
+     inkscape:cx="24.091371"
+     inkscape:cy="24"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M36.6526 3.80786H43.3995L28.6594 20.6548L46 43.5798H32.4225L21.7881 29.6759L9.61989 43.5798H2.86886L18.6349 25.5601L2 3.80786H15.9222L25.5348 16.5165L36.6526 3.80786ZM34.2846 39.5414H38.0232L13.8908 7.63413H9.87892L34.2846 39.5414Z"
+     fill="#FFFFFF"
+     id="path2"
+     style="fill:#000000;fill-opacity:1" />
+</svg>
