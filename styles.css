@@ -1,0 +1,154 @@
+/* variables */
+:root {
+	--clr-1: #fbffa7;
+	--clr-2: #b1c5ff;
+	--clr-3: #b6ffc0;
+	--clr-4: #ff764d;
+	--clr-5: #d5b3ff;
+	--clr-6: #0000ff;
+
+    --fs-1: 1rem;
+    --fs-2: 1.333rem;
+    --fs-3: 1.777rem;
+    --fs-4: 2.369rem;
+    --fs-5: 3.157rem;
+    --fs-small: 0.75rem;
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'futura_ptbook';
+    src: url('./fonts/futuraptbook-webfont.woff2') format('woff2'),
+         url('./fonts/futuraptbook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptheavy';
+    src: url('./fonts/futuraptheavy-webfont.woff2') format('woff2'),
+         url('./fonts/futuraptheavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptlight';
+    src: url('./fonts/futuraptlight-webfont.woff2') format('woff2'),
+         url('./fonts/futuraptlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptmedium';
+    src: url('./fonts/futuraptmedium-webfont.woff2') format('woff2'),
+         url('./fonts/futuraptmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ptbold';
+    src: url('./fonts/futuraptbold-webfont.woff2') format('woff2'),
+         url('./fonts/futuraptbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* base styles */
+
+
+/* mobile styles */
+
+
+/* tablet styles */
+@media only screen and (min-width: 750px) {
+
+    :root {
+        --fs-1: 1rem;
+        --fs-2: 1.5rem;
+        --fs-3: 2.25rem;
+        --fs-4: 3.375rem;
+        --fs-5: 5.063rem;
+        --fs-small: 0.667rem;
+    }
+
+}
+
+/* desktop and laptop styles */
+@media only screen and (min-width: 1200px) {
+
+    :root {
+        --fs-1: 1rem;
+        --fs-2: 1.618rem;
+        --fs-3: 2.618rem;
+        --fs-4: 4.236rem;
+        --fs-5: 6.854rem;
+        --fs-small: 0.618rem;
+    }
+
+}
