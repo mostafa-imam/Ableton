@@ -152,6 +152,9 @@ li {
 
 .nav-1 {
     border-bottom: 2px solid rgb(224, 223, 223);
+    gap: var(--fs-4);
+
+    display: flex;
 }
 
 .nav-1,
@@ -160,7 +163,7 @@ li {
 }
 
 
-.nav-1 a img[src="./assets/Ableton-logo.svg"] {
+.nav-1 a img {
     width: 60px;
 }
 
@@ -444,6 +447,97 @@ button:hover {
 
 .sign-up-newsletter div {
     margin-top: var(--fs-1);
+}
+
+/* Mobile Styles - Mega Menu Styles */
+
+.drop_Down_Menu {
+    font-size: larger;
+    margin: 0;
+    font-weight: normal;
+    position: relative;
+
+    display: flex;
+}
+
+.drop_Down_Menu::after {
+    content: url(./assets/arrow_down.svg);
+    position: absolute;
+    width: 100%;
+    white-space: pre;
+    right: -45px;
+    top: 3px;
+}
+
+.arrow_up::after {
+    content: url(./assets/arrow_up.svg);
+    position: absolute;
+    width: 100%;
+    white-space: pre;
+    right: -45px;
+    top: 3px;
+}
+
+.dropDownHeader {
+    height: fit-content;
+    background-color: var(--clr-6);
+    color: white;
+
+    transition: all 300ms ease;
+}
+
+.nav-1-menu {
+    border-bottom: none;
+    padding: var(--fs-2);
+    gap: var(--fs-4);
+
+    display: flex;
+}
+
+.nav-1-menu a img {
+    width: 60px;
+}
+
+.mainNavMenu {
+    display: block;
+}
+
+.nav-2-menu {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: var(--fs-4);
+    padding-left: var(--fs-4);
+}
+
+.mainNavMenu a,
+.nav-2-sub-1 a {
+    color: white;
+}
+
+.nav-2-menu > div,
+.nav-2-sub-2 li {
+    margin-bottom: var(--fs-2);
+}
+
+.nav-2-menu a,
+.nav-2-menu h3,
+.nav-2-menu p {
+    font-size: larger;
+}
+
+.main-nav-2-menu {
+    font-weight: bold;
+    padding-left: var(--fs-2);
+    padding-right: var(--fs-2);
+    }
+
+.main-nav-2-menu a {
+    color: inherit;
+}
+
+.main-nav-2-menu li:nth-child(1) {
+    color: var(--clr-4);
 }
 
 /* tablet styles */
