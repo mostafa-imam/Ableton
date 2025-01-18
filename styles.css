@@ -267,6 +267,10 @@ main p {
     grid-row: 4/-4;
 }
 
+.video-container {
+    height: 40vh;
+}
+
 .video-container > p {
     margin-bottom: 0;
 }
@@ -407,6 +411,10 @@ footer h3 {
     display: flex;
 }
 
+.main-footer-4 div:nth-child(2) p {
+    order: 2;
+}
+
 footer a {
     color: black;
 }
@@ -541,7 +549,7 @@ button:hover {
 }
 
 /* tablet styles */
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 768px) {
 
     :root {
         --fs-1: 1rem;
@@ -551,6 +559,17 @@ button:hover {
         --fs-5: 5.063rem;
         --fs-small: 0.667rem;
     }
+
+    .content-section-2,
+    .content-section-4,
+    .content-section-5,
+    .content-section-6,
+    .content-section-8,
+    .content-section-10,
+    .content-section-12,
+    .content-section-14 {
+        grid-column: 3/-3;
+}
 
 }
 
