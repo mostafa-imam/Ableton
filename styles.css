@@ -326,10 +326,22 @@ main p {
     grid-column: 8/-1;
     grid-row: 3/11;
 }
+.content-section-13 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
 
-.content-section-13 > div {
+.content-section-13-text {
     background-color: var(--clr-2);
     padding: var(--fs-2);
+}
+
+.content-section-13-image {
+    background-image: url(./assets/photo-8.jpg);
+    background-position: right;
+    background-size: cover;
+
+    grid-column: 1/-1;
 }
 
 .content-section-13 h1:nth-child(2) {
@@ -574,7 +586,7 @@ button:hover {
 }
 
 /* desktop and laptop styles */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
 
     :root {
         --fs-1: 1rem;
@@ -584,5 +596,89 @@ button:hover {
         --fs-5: 6.854rem;
         --fs-small: 0.618rem;
     }
+
+    .mainNavMenu a,
+    .nav-2-sub-1 a {
+        color: black;
+    }
+
+    .nav-2-sub-3 ul {
+        display: flex;
+    }
+
+    .nav-1,
+    .nav-1-menu {
+        display: flex;
+    }
+
+    .nav-2-sub-3 {
+        order: 2;
+    }
+
+    .content-section-13 {
+        grid-column: 3/-3;
+    }
+
+    .main-footer-2 {
+        display: flex;
+        gap: var(--fs-3);
+    }
+    
+    .social-media ul:nth-child(2) {
+        gap: calc( var(--fs-1) / 2);
+    }
+
+    .education {
+        min-width: fit-content;
+    }
+
+    .main-footer-3 {
+        display: flex;
+        gap: var(--fs-3);
+    }
+
+    .main-footer-4 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-footer-4 div:nth-child(1) ul {
+        display: flex;
+        gap: var(--fs-1);
+    }
+
+    .main-footer-4 div:nth-child(2) img {
+        order: 2;
+    }
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+    body {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+        background-color: rgb(240, 240, 240);
+    }
+
+    .container {
+        grid-column: 2/-2;
+    }
+
+    .container {
+        background-color: white;
+    }
+
+    .content-section-2,
+    .content-section-4,
+    .content-section-5,
+    .content-section-6,
+    .content-section-8,
+    .content-section-10,
+    .content-section-12,
+    .content-section-14 {
+        grid-column: 4/-4;
+}
 
 }

@@ -1,11 +1,17 @@
 const nav_1 = document.querySelector(".nav-1");
-const drop_Down_Menu = document.createElement('h1');
 const header = document.querySelector("header");
 const main_nav = document.querySelector('ul.main-nav');
 const logo = document.querySelector(".nav-1 > a");
 const nav_2 = document.querySelector(".nav-2");
 const main_Nav_2 = document.querySelector(".main-nav-2");
 const image = document.querySelector('.headerImage');
+const nav_2_sub_3 = document.querySelector('.nav-2-sub-3');
+
+const drop_Down_Menu = document.createElement('h1');
+
+const screenWidth = document.documentElement.clientWidth || window.innerWidth;
+
+const clone_nav_2_sub_3 = nav_2_sub_3.cloneNode(true);
 
 drop_Down_Menu.classList = "drop_Down_Menu";
 drop_Down_Menu.textContent = "Menu";
